@@ -3,7 +3,7 @@
 ## Paper Format
 
 Papers are formatted using reStructuredText and the compiled version should be
-no longer than 7 pages, including figures.  Here are the steps to produce a
+no longer than 8 pages, including figures.  Here are the steps to produce a
 paper:
 
 - Fork the
@@ -72,9 +72,6 @@ On Debian-like distributions:
 sudo apt-get install python-docutils texlive-latex-base texlive-publishers \
                      texlive-latex-extra texlive-fonts-recommended
 ```
-
- - Due to a bug in the Debian packaging of ``pdfannotextractor``, you may have
-   to execute ``pdfannotextractor --install`` to fetch the PDFBox library.
 
 ## Build Server
 
